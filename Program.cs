@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Winform_T5
+namespace BTVN
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace Winform_T5
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ListView());
+            Application.Run(new Form1());
         }
     }
 }
